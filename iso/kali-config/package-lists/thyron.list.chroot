@@ -1,0 +1,5 @@
+# Lista inicial intencionalmente conservadora.
+# Validar nomes e disponibilidade na versão Kali fixada antes do build.
+# Não adicionar metapacotes grandes sem decisão documentada.
+# O desktop GNOME deverá ser selecionado conforme o mecanismo oficial
+# de configuração do Kali Live Build, e não presumido apenas por esta lista.
