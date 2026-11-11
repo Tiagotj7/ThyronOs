@@ -21,9 +21,11 @@ thyron-os/
 ├── branding/README.md
 ├── branding/fonts/.gitkeep
 ├── branding/icons/.gitkeep
-├── branding/logo/.gitkeep
+├── branding/logo/thyron-logo-concept-banner.png
+├── branding/logo/thyron-logo-concept-transparent.png
 ├── branding/mascot/.gitkeep
-├── branding/wallpapers/.gitkeep
+├── branding/references/ (README.md + 8 PNG)
+├── branding/wallpapers/ (2 PNG)
 ├── core/README.md
 ├── core/profiles/.gitkeep
 ├── core/recovery/.gitkeep
