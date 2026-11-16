@@ -1,0 +1,8 @@
+{
+  "name": "THYRON App Launcher",
+  "description": "Lançador de aplicativos personalizado do THYRON OS",
+  "uuid": "thyron-app-launcher@thyron-os.local",
+  "shell-version": [
+    "50"
+  ]
+}

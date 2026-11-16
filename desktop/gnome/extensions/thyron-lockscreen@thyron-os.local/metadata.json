@@ -1,0 +1,8 @@
+{
+  "uuid": "thyron-lockscreen@thyron-os.local",
+  "name": "THYRON Lock Screen",
+  "description": "Tela de bloqueio THYRON OS: fundo nitido, coluna de login a direita, logo, relogio e slogan. Altera apenas o visual; a autenticacao do GNOME Shell nao e modificada.",
+  "shell-version": ["50"],
+  "session-modes": ["user", "unlock-dialog"],
+  "version": 3
+}

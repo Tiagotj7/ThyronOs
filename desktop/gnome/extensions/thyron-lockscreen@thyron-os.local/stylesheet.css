@@ -1,0 +1,67 @@
+/* THYRON Lock Screen - paleta Electric Blue */
+
+.thyron-lock-background {
+  background-color: #050914;
+  background-image: url("assets/lock-wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.unlock-dialog .unlock-dialog-clock-time {
+  font-size: 78pt;
+  font-weight: 800;
+  color: #DCE5F2;
+  text-shadow: 0 0 28px rgba(0, 200, 255, 0.40);
+}
+
+.unlock-dialog .unlock-dialog-clock-date {
+  font-size: 18pt;
+  color: #DCE5F2;
+}
+
+.unlock-dialog .unlock-dialog-clock-hint {
+  font-size: 11pt;
+  color: #00C8FF;
+}
+
+.thyron-lock-logo {
+  width: 340px;
+  height: 136px;
+  background-image: url("assets/thyron-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.thyron-lock-avatar-logo {
+  width: 300px;
+  height: 120px;
+  background-image: url("assets/thyron-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 8px;
+}
+
+.thyron-lock-slogan {
+  font-size: 10pt;
+  color: #DCE5F2;
+  letter-spacing: 6px;
+}
+
+/* Campo de senha (melhor esforco: depende das classes do AuthPrompt) */
+.unlock-dialog .login-dialog-prompt-entry {
+  background-color: rgba(5, 9, 20, 0.85);
+  color: #DCE5F2;
+  border: 1px solid rgba(0, 200, 255, 0.55);
+  border-radius: 22px;
+  padding: 8px 16px;
+  caret-color: #00C8FF;
+  selection-background-color: #075BFF;
+}
+
+.unlock-dialog .login-dialog-prompt-entry:focus {
+  border-color: #00C8FF;
+  box-shadow: 0 0 12px rgba(0, 200, 255, 0.50);
+}

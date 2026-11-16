@@ -1,0 +1,461 @@
+/* THYRON App Launcher — tema Electric Blue (modo Iniciante / Avançado) */
+
+/* Botão "THYRON" na barra superior */
+.thyron-launcher-label {
+    color: #2f8bff;
+    font-weight: bold;
+}
+
+.thyron-overlay {
+    background-color: rgba(2, 5, 14, 0.55);
+}
+
+/* ---------- Painel principal ---------- */
+.thyron-panel {
+    background-color: rgba(6, 11, 26, 0.96);
+    border: 1px solid #1a64ff;
+    border-radius: 22px;
+    box-shadow: 0 0 26px rgba(20, 100, 255, 0.55);
+    padding: 14px;
+    spacing: 14px;
+    color: #edf3ff;
+}
+
+/* ---------- Barra lateral ---------- */
+.thyron-sidebar {
+    background-color: rgba(9, 16, 36, 0.96);
+    border: 1px solid #14305f;
+    border-radius: 18px;
+    padding: 14px 10px 10px 10px;
+}
+.thyron-side-title {
+    color: #dce8ff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 8px 10px 8px;
+}
+.thyron-navbox {
+    spacing: 3px;
+}
+.thyron-nav {
+    padding: 7px 10px;
+    border-radius: 12px;
+    color: #dce5f2;
+}
+.thyron-nav:hover,
+.thyron-nav:focus {
+    background-color: rgba(30, 80, 170, 0.35);
+}
+.thyron-nav-active,
+.thyron-nav-active:hover,
+.thyron-nav-active:focus {
+    background-gradient-direction: horizontal;
+    background-gradient-start: #0a5cff;
+    background-gradient-end: #1a8cff;
+    box-shadow: 0 0 12px rgba(20, 120, 255, 0.6);
+    color: #ffffff;
+}
+.thyron-nav-icon {
+    color: #9fc0ff;
+    margin-right: 10px;
+}
+.thyron-nav-active .thyron-nav-icon {
+    color: #ffffff;
+}
+.thyron-nav-label {
+    font-size: 14px;
+}
+.thyron-count {
+    background-color: rgba(30, 70, 150, 0.55);
+    color: #6fb4ff;
+    border-radius: 10px;
+    padding: 1px 9px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.thyron-nav-active .thyron-count {
+    background-color: rgba(255, 255, 255, 0.22);
+    color: #ffffff;
+}
+.thyron-brand {
+    border-top: 1px solid #14305f;
+    padding-top: 10px;
+    spacing: 2px;
+}
+.thyron-brand-name {
+    color: #14b8ff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.thyron-brand-slogan {
+    color: #aebfdc;
+    font-size: 9px;
+}
+
+/* ---------- Coluna central ---------- */
+.thyron-center {
+    spacing: 10px;
+}
+.thyron-top {
+    spacing: 10px;
+}
+.thyron-h1 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}
+.thyron-sub {
+    color: #9fb3d9;
+    font-size: 13px;
+}
+
+/* Alternância Iniciante / Avançado */
+.thyron-mode {
+    background-color: rgba(10, 18, 40, 0.95);
+    border: 1px solid #1b3566;
+    border-radius: 22px;
+    padding: 3px;
+    spacing: 2px;
+}
+.thyron-mode-btn {
+    border-radius: 19px;
+    padding: 7px 16px;
+}
+.thyron-mode-btn:hover {
+    background-color: rgba(30, 80, 170, 0.35);
+}
+.thyron-mode-label {
+    color: #dce5f2;
+    font-size: 14px;
+    font-weight: bold;
+}
+.thyron-mode-icon {
+    color: #9fc0ff;
+    margin-right: 7px;
+}
+.thyron-mode-active,
+.thyron-mode-active:hover {
+    background-gradient-direction: horizontal;
+    background-gradient-start: #0a5cff;
+    background-gradient-end: #1a8cff;
+    box-shadow: 0 0 12px rgba(20, 120, 255, 0.6);
+}
+.thyron-mode-active .thyron-mode-label,
+.thyron-mode-active .thyron-mode-icon {
+    color: #ffffff;
+}
+
+.thyron-close {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 4px 11px;
+    border-radius: 12px;
+}
+.thyron-close:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Busca e ordenação */
+.thyron-toolbar {
+    spacing: 12px;
+}
+.thyron-search {
+    background-color: #08102a;
+    border: 2px solid #1a64ff;
+    border-radius: 22px;
+    padding: 7px 14px;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(20, 100, 255, 0.35);
+}
+.thyron-search:focus {
+    border-color: #00c8ff;
+}
+.thyron-search-icon {
+    color: #9fc0ff;
+    margin-right: 8px;
+}
+.thyron-sort-label {
+    color: #dce5f2;
+    font-size: 14px;
+}
+.thyron-sort {
+    background-color: #0b1430;
+    border: 1px solid #1b3566;
+    border-radius: 16px;
+    padding: 7px 16px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.thyron-sort:hover {
+    background-color: #12214a;
+}
+
+.thyron-grid {
+    spacing: 8px;
+}
+.thyron-empty {
+    color: #9fb3d9;
+    font-size: 14px;
+    padding: 24px;
+}
+
+/* ---------- Tela inicial: Aplicativos Essenciais ---------- */
+.thyron-ess {
+    background-gradient-direction: vertical;
+    background-gradient-start: #0f2058;
+    background-gradient-end: #0a1638;
+    border: 1px solid #2a5bd0;
+    border-radius: 16px;
+    box-shadow: 0 0 14px rgba(30, 90, 230, 0.45);
+    padding: 12px 14px 14px 14px;
+    spacing: 10px;
+}
+.thyron-ess-head {
+    spacing: 10px;
+}
+.thyron-ess-icon {
+    color: #00c8ff;
+}
+.thyron-ess-title {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.thyron-ess-sub {
+    color: #b8c8ea;
+    font-size: 12px;
+}
+.thyron-seeall {
+    background-color: #0a5cff;
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 6px 16px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.thyron-seeall:hover {
+    background-color: #2a7bff;
+}
+.thyron-ess-row {
+    spacing: 0;
+}
+.thyron-ess-tile {
+    background-color: rgba(21, 28, 54, 0.95);
+    border: 1px solid #2b3558;
+    border-radius: 14px;
+    margin-right: 12px;
+    padding: 8px 4px;
+}
+.thyron-ess-tile:hover {
+    background-color: rgba(34, 48, 92, 0.95);
+}
+.thyron-ess-role {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 4px;
+}
+.thyron-ess-app {
+    color: #b8c8ea;
+    font-size: 11px;
+}
+
+/* ---------- Tela inicial: Categorias Populares ---------- */
+.thyron-pop-head {
+    spacing: 8px;
+    padding-top: 2px;
+}
+.thyron-pop-star {
+    color: #ffc928;
+}
+.thyron-pop-title {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.thyron-pop-row {
+    spacing: 0;
+}
+.thyron-pop {
+    border-radius: 14px;
+    margin-right: 12px;
+    padding: 8px 4px;
+    border: 1px solid #2a5bd0;
+}
+.thyron-pop:hover {
+    box-shadow: 0 0 14px rgba(60, 140, 255, 0.55);
+}
+.thyron-pop-0 { background-gradient-direction: vertical; background-gradient-start: #0e3f8f; background-gradient-end: #0a2a66; }
+.thyron-pop-1 { background-gradient-direction: vertical; background-gradient-start: #5a1f74; background-gradient-end: #2d1244; border-color: #8a3fb0; }
+.thyron-pop-2 { background-gradient-direction: vertical; background-gradient-start: #0e4a8a; background-gradient-end: #0a2f5c; }
+.thyron-pop-3 { background-gradient-direction: vertical; background-gradient-start: #3f2f9a; background-gradient-end: #241866; border-color: #6a55d0; }
+.thyron-pop-4 { background-gradient-direction: vertical; background-gradient-start: #6e3d1c; background-gradient-end: #40220f; border-color: #a8683a; }
+.thyron-pop-icon {
+    color: #ffffff;
+}
+.thyron-pop-name {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+.thyron-pop-sub {
+    color: #c9d6f2;
+    font-size: 11px;
+}
+
+/* ---------- Grade de aplicativos ---------- */
+.thyron-row {
+    spacing: 8px;
+}
+.thyron-tile {
+    background-color: rgba(16, 26, 51, 0.95);
+    border: 1px solid #1b2c55;
+    border-radius: 12px;
+    padding: 8px 4px;
+}
+.thyron-tile:hover {
+    background-color: rgba(30, 50, 100, 0.95);
+}
+.thyron-tile-selected,
+.thyron-tile-selected:hover {
+    background-color: rgba(20, 48, 100, 0.98);
+    border-color: #2f7bff;
+    box-shadow: 0 0 10px rgba(40, 120, 255, 0.5);
+}
+.thyron-tile-name {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 4px;
+}
+.thyron-tile-cat {
+    color: #8fa6cf;
+    font-size: 10px;
+}
+
+/* ---------- Paginação ---------- */
+.thyron-pager {
+    spacing: 8px;
+    padding-top: 2px;
+}
+.thyron-page {
+    background-color: rgba(11, 20, 48, 0.95);
+    border: 1px solid #1b3566;
+    border-radius: 10px;
+    padding: 5px 13px;
+    color: #dce5f2;
+    font-weight: bold;
+}
+.thyron-page:hover {
+    background-color: rgba(30, 80, 170, 0.45);
+}
+.thyron-page-active,
+.thyron-page-active:hover {
+    background-color: #0a5cff;
+    border-color: #2f8bff;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(20, 120, 255, 0.6);
+}
+.thyron-page-gap {
+    color: #8fa6cf;
+    padding-top: 4px;
+}
+
+/* ---------- Painel de detalhes ---------- */
+.thyron-detail-scroll {
+    background-color: rgba(9, 16, 36, 0.96);
+    border: 1px solid #14305f;
+    border-radius: 18px;
+    padding: 14px;
+}
+.thyron-detail {
+    spacing: 8px;
+}
+.thyron-d-iconbox {
+    background-color: #0a1330;
+    border: 2px solid #1a64ff;
+    border-radius: 18px;
+    padding: 12px;
+    box-shadow: 0 0 14px rgba(20, 100, 255, 0.5);
+}
+.thyron-d-title {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+}
+.thyron-d-name {
+    color: #9fb3d9;
+    font-size: 13px;
+    text-align: center;
+}
+.thyron-open {
+    background-gradient-direction: horizontal;
+    background-gradient-start: #0a5cff;
+    background-gradient-end: #1a8cff;
+    border-radius: 12px;
+    padding: 9px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 12px rgba(20, 120, 255, 0.55);
+}
+.thyron-open:hover {
+    box-shadow: 0 0 18px rgba(60, 150, 255, 0.85);
+}
+.thyron-open-icon {
+    color: #ffffff;
+    margin-right: 8px;
+}
+.thyron-fav {
+    background-color: rgba(11, 20, 48, 0.95);
+    border: 1px solid #1b3566;
+    border-radius: 10px;
+    padding: 6px;
+    color: #dce5f2;
+    font-size: 12px;
+}
+.thyron-fav:hover {
+    background-color: rgba(30, 80, 170, 0.45);
+}
+.thyron-fav-on {
+    color: #ffc928;
+    border-color: #8a6a1a;
+}
+.thyron-d-sep {
+    background-color: #14305f;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.thyron-d-row {
+    spacing: 8px;
+}
+.thyron-d-key {
+    color: #9fb3d9;
+    font-size: 12px;
+}
+.thyron-d-val {
+    color: #ffffff;
+    font-size: 12px;
+}
+.thyron-d-section {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+.thyron-d-desc {
+    color: #cdd9f0;
+    font-size: 13px;
+}
+.thyron-more {
+    color: #2f9bff;
+    font-size: 13px;
+    padding: 6px;
+    border-radius: 10px;
+}
+.thyron-more:hover {
+    background-color: rgba(30, 80, 170, 0.35);
+}
