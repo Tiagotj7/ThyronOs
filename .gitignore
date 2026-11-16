@@ -1,0 +1,16 @@
+
+# THYRON OS: artefatos que não devem ir para o Git
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.zip
+*.iso
+*.deb
+*.bak
+*.bak.*
+*.antes-*
+.DS_Store
