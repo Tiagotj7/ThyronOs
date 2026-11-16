@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: THYRON OS
+Source: repositorio do projeto THYRON OS
+
+Files: usr/share/gnome-shell/extensions/*/*.js usr/share/gnome-shell/extensions/*/*.css usr/share/gnome-shell/extensions/*/metadata.json etc/dconf/*
+Copyright: 2026 THYRON OS contributors
+License: GPL-3+
+
+Files: usr/share/backgrounds/thyron/* usr/share/gnome-shell/extensions/*/assets/*
+Copyright: autoria a confirmar
+License: UNCONFIRMED
+ Imagens conceituais fornecidas pelo responsavel do projeto. Autoria, metodo
+ de criacao e licenca ainda NAO foram confirmados (branding/ASSETS.md).
+ Este pacote e um build de desenvolvimento e nao deve ser redistribuido.
+
+License: GPL-3+
+ Na instalacao Debian, o texto completo esta em /usr/share/common-licenses/GPL-3.

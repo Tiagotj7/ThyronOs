@@ -1,0 +1,19 @@
+Package: thyron-desktop
+Version: 0.1.0~dev1
+Section: x11
+Priority: optional
+Architecture: all
+Maintainer: THYRON OS <tiagotj7dev@gmail.com>
+Depends: gnome-shell (>= 50~), dconf-cli
+Description: THYRON OS desktop (GNOME Shell extensions, defaults, wallpapers)
+ Primeiro pacote da experiencia THYRON Desktop. Instala:
+  - extensao thyron-app-launcher (lancador de aplicativos);
+  - extensao thyron-lockscreen (visual da tela de bloqueio);
+  - padroes de sistema do dconf que ativam essas extensoes;
+  - wallpapers em /usr/share/backgrounds/thyron/.
+ .
+ Alvo: GNOME Shell 50. Nao altera o GDM nem a autenticacao (PAM).
+ .
+ BUILD DE DESENVOLVIMENTO: os wallpapers e os ativos da tela de bloqueio sao
+ imagens conceituais com autoria e licenca ainda nao confirmadas
+ (branding/ASSETS.md). Nao redistribuir.

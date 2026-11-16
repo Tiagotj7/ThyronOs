@@ -54,3 +54,10 @@ As imagens são conceitos e **não prevalecem** sobre o Prompt Mestre:
 5. `ref-02` e `ref-05` usam menu iniciar tradicional estilo KDE/Zorin; no GNOME a visão de Atividades deve ser preservada (menu próprio é opcional).
 6. As datas nas imagens (08/11/2025) e os valores de requisitos do `ref-01` (40 GB) divergem do planejamento atual (mínimo proposto 30 GB). Valem os valores do Prompt Mestre, ainda não validados.
 7. Dados exibidos nas imagens (quantidade de apps, uso de disco, clima, versões) são fictícios.
+
+## Uso em pacotes
+
+| Pacote | Ativos incluídos | Situação |
+|---|---|---|
+| `thyron-desktop` `0.1.0~dev1` | os 2 wallpapers conceituais (`/usr/share/backgrounds/thyron/`) e, dentro da extensão `thyron-lockscreen`, `lock-wallpaper.png` e `thyron-logo.png` (cópias dos conceitos) | **Build interno de desenvolvimento.** Licença não confirmada: não redistribuir nem incluir em ISO pública. |
+

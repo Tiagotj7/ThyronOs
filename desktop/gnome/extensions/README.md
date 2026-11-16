@@ -25,4 +25,4 @@ bash scripts/dev-install-extensions.sh remover    # remove as duas
 
 Depois: sair da sessão, entrar de novo e `gnome-extensions enable <uuid>`.
 
-Na ISO, a instalação será pelo pacote `thyron-desktop` (em `/usr/share/gnome-shell/extensions/`), não por este script.
+Na ISO, a instalação será pelo pacote `thyron-desktop` (`packages/thyron-desktop/`, em `/usr/share/gnome-shell/extensions/`), não por este script. O pacote já pode ser construído (`bash packages/thyron-desktop/build.sh`); instalação real na VM ainda não testada. Antes de testá-lo, rode `dev-install-extensions.sh remover` (a cópia de `~/.local` tem prioridade sobre a do sistema).

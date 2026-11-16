@@ -1,0 +1,24 @@
+#!/bin/sh
+# thyron-desktop: pos-instalacao.
+# Recompila o banco dconf "local" para que os padroes THYRON valham.
+# Nao toca no perfil/banco do GDM (ver Prompt Mestre, secao 25.6).
+set -e
+
+PROFILE=/etc/dconf/profile/user
+
+case "$1" in
+    configure)
+        if [ ! -e "$PROFILE" ]; then
+            mkdir -p /etc/dconf/profile
+            printf 'user-db:user\nsystem-db:local\n' > "$PROFILE"
+        elif ! grep -q '^system-db:local[[:space:]]*$' "$PROFILE"; then
+            echo "thyron-desktop: AVISO: $PROFILE nao contem 'system-db:local'; os padroes THYRON (extensoes ativas) nao serao aplicados." >&2
+        fi
+
+        if command -v dconf >/dev/null 2>&1; then
+            dconf update || echo "thyron-desktop: AVISO: 'dconf update' falhou; rode-o manualmente." >&2
+        fi
+        ;;
+esac
+
+exit 0

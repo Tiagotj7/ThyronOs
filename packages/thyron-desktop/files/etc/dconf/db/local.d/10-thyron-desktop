@@ -1,0 +1,12 @@
+# THYRON OS - padroes de sistema (banco dconf "local").
+# Instalado por: thyron-desktop. Arquivo de configuracao: edicoes locais sao preservadas pelo dpkg.
+#
+# ATENCAO: 'enabled-extensions' SUBSTITUI a lista padrao, nao soma. Por isso a lista
+# traz tambem as extensoes que ja estavam ativas na VM de desenvolvimento
+# (Prompt Mestre, secao 25.1), para nao desligar o dock nem o tema do Shell.
+# UUID de extensao nao instalada e ignorado pelo GNOME Shell.
+#
+# Valores definidos pelo usuario (~/.config/dconf) continuam tendo prioridade.
+
+[org/gnome/shell]
+enabled-extensions=['thyron-app-launcher@thyron-os.local', 'thyron-lockscreen@thyron-os.local', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'ding@rastersoft.com', 'ubuntu-appindicators@ubuntu.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'tiling-assistant@leleat-on-github', 'top-panel-vpnip@kali.org']

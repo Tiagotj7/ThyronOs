@@ -1,0 +1,13 @@
+#!/bin/sh
+# thyron-desktop: pos-remocao. Recompila o dconf (no purge o conffile ja saiu).
+set -e
+
+case "$1" in
+    remove|purge)
+        if command -v dconf >/dev/null 2>&1; then
+            dconf update || true
+        fi
+        ;;
+esac
+
+exit 0
