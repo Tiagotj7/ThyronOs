@@ -9,3 +9,5 @@ class AppEntry:
     source: str = "unknown"
     installed: bool = False
     desktop_file: str = ""
+    icon_name: str = ""
+    categories: str = ""

@@ -12,3 +12,16 @@ dependencies = []
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["thyron_store*"]
+
+[project.scripts]
+thyron-store = "thyron_store.ui:main"
+
+[tool.setuptools.package-data]
+thyron_store = ["assets/*.png"]
+
+[tool.setuptools.data-files]
+"share/applications" = ["packaging/org.thyron.Store.desktop"]
+"share/icons/hicolor/48x48/apps" = ["packaging/icons/hicolor/48x48/apps/thyron-store.png"]
+"share/icons/hicolor/128x128/apps" = ["packaging/icons/hicolor/128x128/apps/thyron-store.png"]
+"share/icons/hicolor/256x256/apps" = ["packaging/icons/hicolor/256x256/apps/thyron-store.png"]
+"share/icons/hicolor/512x512/apps" = ["packaging/icons/hicolor/512x512/apps/thyron-store.png"]

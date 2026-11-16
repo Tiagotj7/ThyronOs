@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=THYRON Store
+Comment=Central de aplicativos do THYRON OS
+Exec=thyron-store
+Icon=thyron-store
+Terminal=false
+Categories=System;Utility;
+StartupNotify=true
+StartupWMClass=org.thyron.Store
